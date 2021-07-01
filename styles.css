@@ -3,6 +3,8 @@
 :root{
     --primary-color: #D1FAE5
     ;
+    --dark-green: #064E3B;
+    --dark-gray: #6B7280;
 }
 
 body {
@@ -29,10 +31,10 @@ hr {
 .link-primary {
    background-color:var(--primary-color);
    border-radius: 0.5rem;
-   color:#064E3B;
+   color: var(--dark-green);
 }
 .link-secondary{
-    color: #064E3B;
+    color: var(--dark-green);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color) ;
 }
@@ -52,7 +54,7 @@ hr {
 
 .navigation{
     background-color: var(--primary-color);
-    color: #064E3B
+    color: var(--dark-green)
     ;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -65,7 +67,7 @@ hr {
     text-align: right;
 }
 .navigation .link {
-    color: #064E3B;
+    color: var(--dark-green);
 }
 .navigation .link-active{
     font-weight: bold;
@@ -78,4 +80,10 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+.hero .hero-heading{
+    color: var(--dark-gray)
+    ;
+    padding-top: 1rem;
+    text-align: center;
 }
