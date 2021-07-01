@@ -99,3 +99,14 @@ hr {
 .ow{
     background-color: var(--off-white);
 }
+/** footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: var(--dark-green);
+}
+.footer .link{
+    color: var(--dark-green);
+}
