@@ -47,10 +47,18 @@ hr {
 
 .list-non-bullet{
     list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
 }
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
+    text-align: center;
+}
+.list-ordered-center{
+    text-align: center;
+    list-style-position: inside;
+    padding-inline-start: 0px;
 }
 /** navigation**/
 
