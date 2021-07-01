@@ -110,3 +110,6 @@ hr {
 .footer .link{
     color: var(--dark-green);
 }
+.footer ul{
+    padding-inline-start: 0px;
+}
