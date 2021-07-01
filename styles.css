@@ -58,7 +58,7 @@ hr {
     color: var(--dark-green)
     ;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-radius: 1rem;
 }
 .navigation .nav-brand{
     font-weight: bold;
